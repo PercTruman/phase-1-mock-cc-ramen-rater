@@ -17,10 +17,17 @@ function renderRamenImages(ramenObjects){
 }
 
 function displayIndividualRamenInfo(ramenObject){
-    ramenPicture.src=`${ramenObject.image}`
-    console.log(ramenObject.image)
-    let focusedInfoDiv =document.getElementById('ramen-detail')
-   focusedInfoDiv.append(ramenObject.image,ramenObject.name, ramenObject.restaurant)
+    // let focusedInfoDiv =document.getElementById('ramen-detail')
+    let focusedRamenPic =document.getElementById('detail-image')
+        focusedRamenPic.src = ramenObject.image
+    let focusedRamenName = document.getElementById('name')
+        focusedRamenName.innerText = ramenObject.name
+    let focusedRamenRestaurant = document.getElementById("restaurant")
+        focusedRamenRestaurant.innerText = ramenObject.restaurant
+    let focusedRamenRating = document.getElementById("rating-display")
+        focusedRamenRating.innerText = ramenObject.rating
+    let focusedRamenComment = document.getElementById("comment-display")
+        focusedRamenComment.innerText = ramenObject.comment
 }
 
 

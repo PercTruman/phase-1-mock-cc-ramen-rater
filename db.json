@@ -39,6 +39,38 @@
       "image": "./assets/ramen/kojiro.jpg",
       "rating": 6,
       "comment": "Perfect for a cold night."
+    },
+    {
+      "name": "Shawn",
+      "restaurant": "McDonald's",
+      "image": "https://images.unsplash.com/photo-1635163236960-c068148bd61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aFNQNkp4OHc0WjR8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
+      "rating": "4",
+      "comment": "dhghsrs",
+      "id": 6
+    },
+    {
+      "name": "Shawn",
+      "restaurant": "McDonald's",
+      "image": "https://images.unsplash.com/photo-1635163236960-c068148bd61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aFNQNkp4OHc0WjR8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
+      "rating": "4",
+      "comment": "sbrsrgr",
+      "id": 7
+    },
+    {
+      "name": "Shawn",
+      "restaurant": "McDonald's",
+      "image": "afijeifj",
+      "rating": "5",
+      "comment": "dftwrt",
+      "id": 8
+    },
+    {
+      "name": "Shawn",
+      "restaurant": "McDonald's",
+      "image": "https://images.unsplash.com/photo-1635163236960-c068148bd61a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDF8aFNQNkp4OHc0WjR8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=60",
+      "rating": "6",
+      "comment": "sgfhsh",
+      "id": 9
     }
   ]
 }

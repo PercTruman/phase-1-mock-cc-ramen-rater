@@ -2,7 +2,10 @@
 document.addEventListener('DOMContentLoaded',
     fetch('http://localhost:3000/ramens')
     .then(res=>res.json())
-    .then(ramenDataObjects=>renderRamenImages(ramenDataObjects))
+    .then(ramenDataObjects=>{
+        renderRamenImages(ramenDataObjects)
+         displayIndividualRamenInfo(ramenDataObjects[0])
+    })
 )
 document.getElementById('submitBtn').addEventListener('click', (e)=>{ 
     e.preventDefault()

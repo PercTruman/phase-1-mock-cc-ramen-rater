@@ -33,7 +33,10 @@ function renderRamenImages(ramenObjects){
     ramenObjects.forEach(ramenObject=>{
         let ramenPicture =document.createElement('img')
         ramenPicture.src=`${ramenObject.image}`
-        ramenMenuBar.append(ramenPicture)
+        let deleteBtn = document.createElement('button')
+            deleteBtn.innerText= 'Delete'
+            deleteBtn.addEventListener('click', ()=>deleteRamen(ramenPicture, deleteBtn))
+        ramenMenuBar.append(ramenPicture, deleteBtn)
         ramenPicture.addEventListener('click', ()=>displayIndividualRamenInfo(ramenObject))
     })
 }
@@ -68,10 +71,14 @@ function addNewRamen(ramen){
     const ramenMenuBar=document.getElementById('ramen-menu')
     let ramenPicture =document.createElement('img')
         ramenPicture.src = ramen.image
-    
     ramenMenuBar.append(ramenPicture)
         ramenPicture.addEventListener('click', ()=>displayIndividualRamenInfo(ramen))
     }
+
+function deleteRamen(picture, button){
+   picture.style.display="none"
+   button.style.display="none"
+}
 
 
 
